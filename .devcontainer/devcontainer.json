@@ -1,0 +1,21 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile",
+    "target": "devcontainer"
+  },
+  "runArgs": ["--network", "host"],
+  "containerUser": "user",
+  "mounts": [
+    "source=${localWorkspaceFolder}/..,target=/workspaces,type=bind",
+    "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
+  ],
+  "containerEnv": {
+    "LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}",
+    "CONTAINER_WORKSPACE_FOLDER": "${containerWorkspaceFolder}"
+  },
+  "extensions": [
+    "redhat.vscode-yaml",
+    "eamodio.gitlens",
+    "GitHub.vscode-pull-request-github"
+  ]
+}
