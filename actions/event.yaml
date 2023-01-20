@@ -1,0 +1,7 @@
+apiVersion: make.new/v1alpha1
+kind: Action
+metadata:
+  name: Event
+spec:
+  iconClass: fa-solid fa-calendar
+  services: []

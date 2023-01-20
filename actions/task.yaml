@@ -1,0 +1,7 @@
+apiVersion: make.new/v1alpha1
+kind: Action
+metadata:
+  name: Task
+spec:
+  iconClass: fa-solid fa-list-check
+  services: []
