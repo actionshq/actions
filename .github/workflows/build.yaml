@@ -1,0 +1,16 @@
+name: build
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    container:
+      image: ghcr.io/actionshq/devcontainer:v0.1.0
+    steps:
+    - uses: actions/checkout@v3
+    - run: echo ${{ secrets.GITHUB_TOKEN }} | gh auth login --with-token
+    - run: ./scripts/init.sh
+    - run: ./scripts/build.sh
