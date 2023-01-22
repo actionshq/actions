@@ -76,7 +76,7 @@
                     "type": "string",
                     "format": "uri"
                 },
-                "trigger": {
+                "triggers": {
                     "type": "array",
                     "items": {
                         "anyOf": [{ "$ref": "#/definitions/LinkTrigger" }]
@@ -87,7 +87,7 @@
                 "icon",
                 "name",
                 "provider",
-                "trigger"
+                "triggers"
             ],
             "title": "Service"
         },
