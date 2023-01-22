@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.4.0](https://github.com/actionshq/actions/compare/v0.3.0...v0.4.0) (2023-01-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* rename trigger to triggers
+
+### Bug Fixes
+
+* rename trigger to triggers ([41a3230](https://github.com/actionshq/actions/commit/41a32304c15a688801ea077dc6b9b3ef4f0cae00))
+
 ## [0.3.0](https://github.com/actionshq/actions/compare/v0.2.0...v0.3.0) (2023-01-22)
 
 
