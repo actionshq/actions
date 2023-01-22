@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=../schemas/action.json
 apiVersion: make.new/v1alpha1
 kind: Action
 metadata:
@@ -7,13 +8,19 @@ spec:
   services:
   - provider: Google
     name: Google Docs
-    url: https://docs.new
     icon: https://www.google.com/s2/favicons?domain=docs.google.com&sz=32
+    trigger:
+      - type: UriTrigger
+        url: https://docs.new
   - provider: Microsoft
     name: Microsoft Word
-    url: https://word.new
     icon: https://www.google.com/s2/favicons?domain=www.microsoft.com&sz=32
+    trigger:
+      - type: UriTrigger
+        url: https://word.new
   - provider: Dropbox
     name: Dropbox Paper
-    url: https://paper.new
     icon: https://www.google.com/s2/favicons?domain=www.dropbox.com&sz=32
+    trigger:
+      - type: UriTrigger
+        url: https://paper.new
