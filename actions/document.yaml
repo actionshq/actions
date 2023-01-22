@@ -10,17 +10,17 @@ spec:
     name: Google Docs
     icon: https://www.google.com/s2/favicons?domain=docs.google.com&sz=32
     trigger:
-      - type: UriTrigger
-        url: https://docs.new
+      - type: LinkTrigger
+        uri: https://docs.new
   - provider: Microsoft
     name: Microsoft Word
     icon: https://www.google.com/s2/favicons?domain=www.microsoft.com&sz=32
     trigger:
-      - type: UriTrigger
-        url: https://word.new
+      - type: LinkTrigger
+        uri: https://word.new
   - provider: Dropbox
     name: Dropbox Paper
     icon: https://www.google.com/s2/favicons?domain=www.dropbox.com&sz=32
     trigger:
-      - type: UriTrigger
-        url: https://paper.new
+      - type: LinkTrigger
+        uri: https://paper.new

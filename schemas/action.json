@@ -79,7 +79,7 @@
                 "trigger": {
                     "type": "array",
                     "items": {
-                        "anyOf": [{ "$ref": "#/definitions/UriTrigger" }]
+                        "anyOf": [{ "$ref": "#/definitions/LinkTrigger" }]
                     }
                 }
             },
@@ -91,23 +91,23 @@
             ],
             "title": "Service"
         },
-        "UriTrigger": {
-            "title": "UriTrigger",
+        "LinkTrigger": {
+            "title": "LinkTrigger",
             "type": "object",
             "additionalProperties": false,
             "properties": {
                 "type": {
                     "type": "string",
-                    "const": "UriTrigger"
+                    "const": "LinkTrigger"
                 },
-                "url": {
+                "uri": {
                     "type": "string",
                     "format": "uri"
                 }
             },
             "required": [
                 "type",
-                "url"
+                "uri"
             ]
         }
     }
