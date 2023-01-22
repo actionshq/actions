@@ -16,10 +16,11 @@ readdir(actionsPath, (err, files) => {
         const inputFilePath = join(actionsPath, file)
         const outputFilePath = join(outputPath, file.replace('.yaml', '.json'))
         const action = load(readFileSync(inputFilePath, 'utf8')) as any;
+        const fileName = file.split(".")[0]
         if (action.spec.slug == null) {
             action.spec = {
                 ...action.spec,
-                slug: action.metadata.name.toLowerCase()
+                slug: fileName
             }
         }
         writeFileSync(outputFilePath, JSON.stringify(action));
