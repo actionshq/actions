@@ -1,0 +1,57 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#", 
+    "title": "Action",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "apiVersion": {
+            "type": "string",
+            "const": "make.new/v1alpha1"
+        },
+        "kind": {
+            "type": "string",
+            "const": "Action"
+        },
+        "metadata": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "name"
+            ]
+        },
+        "spec": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "slug": {
+                    "type": "string"
+                },
+                "icon": {
+                    "$ref": "schemas/FontAwesomeIcon.json"
+                },
+                "services": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "schemas/Service.json"
+                    }
+                }
+            },
+            "required": [
+                "slug",
+                "icon",
+                "services"
+            ]
+        }
+    },
+    "required": [
+        "apiVersion",
+        "kind",
+        "metadata",
+        "spec"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#", 
+    "title": "FontAwesomeIcon",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "type": {
+            "type": "string",
+            "const": "FontAwesomeIcon"
+        },
+        "name": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "type",
+        "name"
+    ]
+}

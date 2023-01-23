@@ -1,8 +1,11 @@
-# yaml-language-server: $schema=../schemas/action.json
+# yaml-language-server: $schema=../Action.schema.json
 apiVersion: make.new/v1alpha1
 kind: Action
 metadata:
   name: Contact
 spec:
-  iconClass: fa-solid fa-address-card
+  slug: contact
+  icon:
+    type: FontAwesomeIcon
+    name: address-card
   services: []
