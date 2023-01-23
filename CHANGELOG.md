@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.5.1](https://github.com/actionshq/actions/compare/v0.5.0...v0.5.1) (2023-01-23)
+
+
+### Features
+
+* add action template ([952649e](https://github.com/actionshq/actions/commit/952649ee74c8565ed7ba5efff5269d83a294da17))
+* include _template.yaml in package ([e683c02](https://github.com/actionshq/actions/commit/e683c02d4820a198ad3cfd2b5cba6e97ea217c7e))
+
 ## [0.5.0](https://github.com/actionshq/actions/compare/v0.4.0...v0.5.0) (2023-01-23)
 
 
