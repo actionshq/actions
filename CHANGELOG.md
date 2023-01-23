@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.5.0](https://github.com/actionshq/actions/compare/v0.4.0...v0.5.0) (2023-01-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* split schemas and merge icon definition
+
+### Features
+
+* add native call to call action ([91d76af](https://github.com/actionshq/actions/commit/91d76aff06894875c4237ada5d74a32ab29eee78))
+* add poptox as call action ([741e7ec](https://github.com/actionshq/actions/commit/741e7ec1fd587417b2233fe72b81d77c24c2dc9c))
+* check that action file name and slug are equal ([733189a](https://github.com/actionshq/actions/commit/733189afc869b9bdcb482b2d55899ba31a128cc2))
+* generate and publish action typescript types ([efcbd68](https://github.com/actionshq/actions/commit/efcbd682315ea52f82dcae128958d07a3167d43f))
+* split schemas and merge icon definition ([14e045d](https://github.com/actionshq/actions/commit/14e045d4d5f083c5088d0df23f55670bba5d10b6))
+
 ## [0.4.0](https://github.com/actionshq/actions/compare/v0.3.0...v0.4.0) (2023-01-22)
 
 
