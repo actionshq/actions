@@ -8,4 +8,12 @@ spec:
   icon:
     type: FontAwesomeIcon
     name: phone
-  services: []
+  services:
+  - provider: Native
+    name: Native Call
+    icon:
+      type: FontAwesomeIcon
+      name: phone
+    triggers:
+      - type: LinkTrigger
+        uri: tel://
