@@ -11,7 +11,6 @@ const actionsPath = join(__dirname, 'actions');
 
 readdir(actionsPath, (err, files) => {
     if (err) throw err;
-    if (!existsSync(outputPath)) mkdirSync(outputPath, { recursive: true });
     files.forEach(file => {
         const inputFilePath = join(actionsPath, file)
         const outputFilePath = join(outputPath, file.replace('.yaml', '.json'))
