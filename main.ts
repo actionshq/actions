@@ -18,7 +18,7 @@ actionFiles.forEach(file => {
     const outputFilePath = join(outputPath, file.replace('.yaml', '.json'))
     const action = load(readFileSync(inputFilePath, 'utf8')) as any;
     const fileNameWithoutExtension = file.split(".")[0]
-    if (action.spec.slug !== fileNameWithoutExtension) {
+    if (fileNameWithoutExtension !== "_template" && action.spec.slug !== fileNameWithoutExtension) {
         throw new Error("action slug and file name (without extension) must be equal")
     }
     writeFileSync(outputFilePath, JSON.stringify(action));
