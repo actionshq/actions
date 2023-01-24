@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=../Action.schema.json
+apiVersion: make.new/v1alpha1
+kind: Action
+metadata:
+  name: Fergree
+spec:
+  slug: fergree
+  icon:
+    type: FontAwesomeIcon
+    # find appropriate font awesome icon name: https://fontawesome.com/search?o=r&m=free&s=solid
+    # examples: phone, file, user
+    name: ${iconName}
+  services: []
