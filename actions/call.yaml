@@ -17,6 +17,14 @@ spec:
     triggers:
       - type: LinkTrigger
         uri: tel://
+  - provider: FreeConferenceCall
+    name: FreeConferenceCall
+    icon:
+      type: Image
+      source: https://www.google.com/s2/favicons?domain=www.freeconferencecall.com&sz=32
+    triggers:
+      - type: LinkTrigger
+        uri: https://www.freeconferencecall.com/profile
   - provider: PopTox
     name: PopTox
     icon:
