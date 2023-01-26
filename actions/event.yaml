@@ -8,4 +8,28 @@ spec:
   icon:
     type: FontAwesomeIcon
     name: calendar
-  services: []
+  services:
+    - provider: Standard
+      name: iCal file
+      icon:
+        type: FontAwesomeIcon
+        name: calendar
+      triggers:
+        - type: LinkTrigger
+          uri: data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0AEND:VCALENDAR%0A
+    - provider: Google
+      name: Google Calendar
+      icon:
+        type: Image
+        source: https://www.google.com/s2/favicons?domain=google.com&sz=32
+      triggers:
+        - type: LinkTrigger
+          uri: https://calendar.google.com/calendar/u/0/r/eventedit
+    - provider: Microsoft
+      name: Microsoft Outlook
+      icon:
+        type: Image
+        source: https://www.google.com/s2/favicons?domain=outlook.office.com&sz=32
+      triggers:
+        - type: LinkTrigger
+          uri: https://outlook.office.com/calendar/0/deeplink/compose
