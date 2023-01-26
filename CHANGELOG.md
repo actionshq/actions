@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.5.2](https://github.com/actionshq/actions/compare/v0.5.1...v0.5.2) (2023-01-26)
+
+
+### Features
+
+* add event services ([a6931cf](https://github.com/actionshq/actions/commit/a6931cfe4bc30d8904cfd4c65ee4a45e37177a08))
+* add FreeConferenceCall to call action ([bfa550d](https://github.com/actionshq/actions/commit/bfa550dfb83a1cb7ae7144feac4796435bf2963a))
+* remove contact action ([a016fe5](https://github.com/actionshq/actions/commit/a016fe5ae207b89f0e7baf96c55b12a60c0592fe))
+
 ## [0.5.1](https://github.com/actionshq/actions/compare/v0.5.0...v0.5.1) (2023-01-23)
 
 
