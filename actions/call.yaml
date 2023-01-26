@@ -9,8 +9,8 @@ spec:
     type: FontAwesomeIcon
     name: phone
   services:
-  - provider: Native
-    name: Native Call
+  - provider: Standard
+    name: Standard Call
     icon:
       type: FontAwesomeIcon
       name: phone
