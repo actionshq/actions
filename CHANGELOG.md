@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.6.0](https://github.com/actionshq/actions/compare/v0.5.2...v0.6.0) (2023-01-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove iCal File action
+
+### Features
+
+* add task actions ([b0a00c1](https://github.com/actionshq/actions/commit/b0a00c1e1822bf7d82c7af03361e58050b45c40d))
+
+
+### Bug Fixes
+
+* remove iCal File action ([27ae1ae](https://github.com/actionshq/actions/commit/27ae1ae64289456df20747773aa1fbf3102229fe))
+
 ## [0.5.2](https://github.com/actionshq/actions/compare/v0.5.1...v0.5.2) (2023-01-26)
 
 
