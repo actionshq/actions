@@ -9,14 +9,6 @@ spec:
     type: FontAwesomeIcon
     name: calendar
   services:
-    - provider: Standard
-      name: iCal file
-      icon:
-        type: FontAwesomeIcon
-        name: calendar
-      triggers:
-        - type: LinkTrigger
-          uri: data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0AEND:VCALENDAR%0A
     - provider: Google
       name: Google Calendar
       icon:
