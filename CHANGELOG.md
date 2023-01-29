@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.7.0](https://github.com/actionshq/actions/compare/v0.6.0...v0.7.0) (2023-01-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* generate action icon assets
+
+### Features
+
+* generate action icon assets ([8ffe7fd](https://github.com/actionshq/actions/commit/8ffe7fda3ac067d4eb5d6cc0098a3adf7a8b8799))
+
 ## [0.6.0](https://github.com/actionshq/actions/compare/v0.5.2...v0.6.0) (2023-01-28)
 
 
