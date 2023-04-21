@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.1](https://github.com/actionshq/actions/compare/v0.6.0...v0.6.1) (2023-04-21)
+
+
+### Features
+
+* use font-awesome icons ([e318730](https://github.com/actionshq/actions/commit/e318730326e81a3ba943ece0ea2c343ecdaf41dc))
+
 ## [0.6.0](https://github.com/actionshq/actions/compare/v0.5.2...v0.6.0) (2023-01-28)
 
 
